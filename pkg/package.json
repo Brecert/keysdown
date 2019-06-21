@@ -1,0 +1,32 @@
+{
+  "name": "keysdown",
+  "version": "0.0.1",
+  "license": "MIT",
+  "files": [
+    "dist-*/",
+    "bin/"
+  ],
+  "pika": true,
+  "sideEffects": false,
+  "repository": "https://github.com/Brecert/keysdown.git",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/types": "^7.4.4",
+    "@pika/pack": "^0.4.0",
+    "@pika/plugin-build-node": "^0.4.0",
+    "@pika/plugin-build-web": "^0.4.0",
+    "@pika/plugin-ts-standard-pkg": "^0.4.0",
+    "@types/jest": "^24.0.15",
+    "@typescript-eslint/eslint-plugin": "^1.10.2",
+    "@typescript-eslint/parser": "^1.10.2",
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.2"
+  },
+  "source": "dist-src/index.js",
+  "types": "dist-types/index.d.ts",
+  "main": "dist-node/index.js",
+  "module": "dist-web/index.js"
+}
