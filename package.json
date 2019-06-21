@@ -1,5 +1,5 @@
 {
-  "name": "keysdown",
+  "name": "keyspressed",
   "version": "0.0.1",
   "repository": "https://github.com/Brecert/keysdown.git",
   "author": "brecert <11599528+Brecert@users.noreply.github.com>",
@@ -25,6 +25,7 @@
   },
   "scripts": {
     "build": "pika-pack build",
+    "publish": "pika-pack publish",
     "test": "jest",
     "lint": "eslint --ext .js,.ts src",
     "version": "npm run build"
