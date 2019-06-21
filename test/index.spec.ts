@@ -1,6 +1,6 @@
 import Keysdown from '../src/index'
 
-describe('Keysdown', () => {
+describe('Keyspressed', () => {
 	it('should be defined', () => {
 		expect(Keysdown).toBeDefined
 	})

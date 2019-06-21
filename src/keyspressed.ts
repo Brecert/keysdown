@@ -1,4 +1,4 @@
-export default class Keysdown extends Map {
+export default class Keyspressed extends Map {
 	public constructor(public target: EventTarget) {
 		super()
 	

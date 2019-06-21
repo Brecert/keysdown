@@ -1,4 +1,4 @@
-import Keysdown from '../src/keysdown'
+import Keysdown from '../src/keyspressed'
 
 describe('Keysdown', () => {
 	let keysdown: Keysdown
