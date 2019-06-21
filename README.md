@@ -1,4 +1,4 @@
 # keydown
-> check what keys are down at any point in timemostly 
+> check what keys are down at any point in time
 
-made to learn different development processes
+mostly made to learn different development processes
